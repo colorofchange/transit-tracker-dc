@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'LCD-Bold';
+  src:url('./font/LCD-Bold.ttf.woff') format('woff'),
+      url('./font/LCD-Bold.ttf.svg#LCD-Bold') format('svg'),
+      url('./font/LCD-Bold.ttf.eot'),
+      url('./font/LCD-Bold.ttf.eot?#iefix') format('embedded-opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.Train {
+  text-align: center;
+  font-family: 'LCD-Bold';
+}
+
+.train-table {
+  width: 100%;
+  font-size: 5em;
+}
+
+.train-table th {
+  color: red;
+}
+
+.train-table td {
+  color: orange;
+}
+
+.Train-logo {
+  animation: Train-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Train-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Train-title {
+  font-size: 1.5em;
+}
+
+.Train-intro {
+  font-size: large;
+}
+
+@keyframes Train-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
